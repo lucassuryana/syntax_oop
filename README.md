@@ -7,7 +7,6 @@ Di dalam github ini terdapat dua buah folder yang berisikan latihan mandiri untu
 
 ## Latihan Syntax OOP 1
 Setelah menyelesaikan latihan ini, Anda akan mampu:
-- Membuat sebuah class sederhana
 - Menginstantiasi sebuah object
 - Menggunakan method dari class untuk perhitungan matematika sederhana
 
@@ -19,5 +18,12 @@ Isi dari folder "Latihan Syntax OOP 1":
 
 Petunjuk mengerjakan file shoes_exercise.ipynb: lakukan setiap perintah di dalam keterangan TODOs di setiap section. Pastikan semua section bisa dijalankan tanpa memunculkan pesan error.
 
+## Latihan Syntax OOP 2
+Setelah menyelesaikan latihan ini, Anda akan mampu:
+- Membuat class dari awal
+- Menginstantiasi sebuah object
+- Menggunakan methods dari sebuah class dengan masukan object yang berasal dari class lain
+
 Isi dari folder "Latihan Syntax OOP 2":
-[Akan diisi untuk video selanjutnya]
+- exercise.ipynb, berisikan file latihan yang perlu dikerjakan
+- answer.ipynb, jawaban dari latihan (coba kerjakan secara mandiri sebelum melihat jawaban)
