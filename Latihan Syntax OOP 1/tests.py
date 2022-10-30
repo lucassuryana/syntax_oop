@@ -1,16 +1,16 @@
-def run_tests(shoes_one, shoes_two, total_cost, total_discount):
+def run_tests(sepatu_satu, sepatu_dua, total_harga, total_discount):
  
     # Unit tests to check your solution
-    assert shoes_one.price == 70, 'shoes_one price seharusnya 70'
-    assert shoes_one.color == 'merah', ' shoes_one color seharusnya merah'
-    assert shoes_one.style == 'Adidas', 'shoes_one style seharusnya Adidas'
-    assert shoes_one.size == 42, 'shoes_one seharusnya 42'
+    assert sepatu_satu.harga == 700000, 'harga sepatu_satu seharusnya 700000'
+    assert sepatu_satu.warna == 'merah', ' warna sepatu_satu seharusnya merah'
+    assert sepatu_satu.merk == 'Adidas', 'merk sepatu_satu seharusnya Adidas'
+    assert sepatu_satu.ukuran == 42, 'ukuran sepatu_satu seharusnya 42'
 
-    assert shoes_two.price == 60, 'shoes_two price seharusnya 60'
-    assert shoes_two.color == 'biru', ' shoes_two color seharusnya biru'
-    assert shoes_two.style == 'Nike', 'shoes_two style seharusnya Nike'
-    assert shoes_two.size == 41, 'shoes_two seharusnya 41'
+    assert sepatu_dua.harga == 600000, 'harga sepatu_dua seharusnya 600000'
+    assert sepatu_dua.warna == 'biru', 'warna sepatu_dua seharusnya biru'
+    assert sepatu_dua.merk == 'Nike', 'merk sepatu_dua seharusnya Nike'
+    assert sepatu_dua.ukuran == 41, 'ukuran sepatu_dua seharusnya 41'
 
-    assert total_cost == 130, 'total_cost dari shoes_one dan shoes_two seharusnya 130'
+    assert total_harga == 1300000, 'total_harga dari sepatu_satu dan sepatu_dua seharusnya 1300000'
     
-    assert round(total_discount) == 117, 'total_discount seharusnya 117'
+    assert int(total_discount) == 1170000, 'total_discount seharusnya 1170000'
